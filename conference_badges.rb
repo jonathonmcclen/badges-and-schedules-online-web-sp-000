@@ -15,7 +15,7 @@ def batch_badge_creator(array)
 end
 
 def room_asignement_maker(name, num)
-  "Hello, #{name}! You'll be assigned to room #{num}"
+  "Hello, #{name}! You'll be assigned to room #{num}!"
 end
 
 def assign_rooms(array)
