@@ -41,7 +41,7 @@ def printer(array)
   puts badges
   
   badges.each do |i|
-    puts i
+    puts badges[i]
   end
   
   
