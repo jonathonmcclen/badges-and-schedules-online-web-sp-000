@@ -4,6 +4,7 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
+
 def batch_badge_creator(array)
   new_array = []
   
@@ -14,9 +15,11 @@ def batch_badge_creator(array)
   new_array
 end
 
+
 def room_asignement_maker(name, num)
   "Hello, #{name}! You'll be assigned to room #{num}!"
 end
+
 
 def assign_rooms(array)
    new_array = []
@@ -27,11 +30,11 @@ def assign_rooms(array)
     room+= 1
   end
   new_array
-     
 end
 
+
 def printer(array)
-  for strings in array
+  array
     puts strings
   end
 end
