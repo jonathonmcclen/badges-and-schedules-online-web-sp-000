@@ -32,5 +32,6 @@ end
 
 def printer(array)
   for strings in array
-  puts strings
+    puts strings
+  end
 end
