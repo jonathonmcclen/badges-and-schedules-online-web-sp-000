@@ -42,6 +42,10 @@ def printer(array)
     puts i
   end
   
+  room_assignment.each do |i|
+    puts i
+  end
+  
   
 
 end
