@@ -17,7 +17,7 @@ end
 
 
 def room_asignement_maker(name, num)
-  "Hello, #{name}! You'll be assigned to room #{num}!"
+  return "Hello, #{name}! You'll be assigned to room #{num}!"
 end
 
 
@@ -43,6 +43,8 @@ def printer(array)
     badge_maker(i)
   end
   
-  for
+  room_assignment.each do |i|
+    room_asignement_maker(i)
+  end
 
 end
