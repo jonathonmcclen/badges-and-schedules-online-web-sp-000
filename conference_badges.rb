@@ -34,7 +34,7 @@ end
 
 
 def printer(array)
-  array
+  array.each
     puts strings
   end
 end
