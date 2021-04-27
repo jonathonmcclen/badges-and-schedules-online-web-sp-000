@@ -20,10 +20,11 @@ end
 
 def assign_rooms(array)
    new_array = []
-  
+   room = 1
   array.each do |name|
-    new_badge = room_asignement_maker(name, name + 1)
+    new_badge = room_asignement_maker(name, room)
     new_array << new_badge
+    room+= 1
   end
   new_array
      
