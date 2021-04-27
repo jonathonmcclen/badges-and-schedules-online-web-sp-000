@@ -41,5 +41,9 @@ def printer(array)
   array.each do |i|
     puts badge_maker(i)
   end
+  
+  array.each do |i|
+    puts assign_rooms(i)
+  end
 
 end
