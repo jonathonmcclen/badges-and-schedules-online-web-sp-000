@@ -40,8 +40,8 @@ def printer(array)
   
   puts badges
   
-  array.each do |i|
-    puts badge_maker(i)
+  badges.each do |i|
+    puts i
   end
   
   
