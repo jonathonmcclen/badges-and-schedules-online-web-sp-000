@@ -36,15 +36,10 @@ end
 def printer(array)
   
   badges = batch_badge_creator(array)
-  
   room_assignment = assign_rooms(array)
   
   badges.each do |i|
-    badge_maker(i)
-  end
-  
-  room_assignment.each do |i|
-    room_asignement_maker(i)
+    puts badge_maker(i)
   end
 
 end
