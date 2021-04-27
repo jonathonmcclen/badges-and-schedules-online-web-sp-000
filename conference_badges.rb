@@ -35,10 +35,8 @@ end
 
 def printer(array)
   
-  badges = batch_badge_creator(array)
+  puts batch_badge_creator(array)
   
-  room_assignment = assign_rooms(array)
-  
-  for
+  puts assign_rooms(array)
 
 end
