@@ -30,6 +30,7 @@ def assign_rooms(array)
      
 end
 
-def printer(string)
-  puts string
+def printer(array)
+  for strings in array
+  puts strings
 end
